@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/giris"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="213dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/teal_200"
+        android:backgroundTint="#8AC3C5"
+        android:ems="10"
+        android:hint="Kullanıcı adı giriniz"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/emailText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="217dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/teal_200"
+        android:backgroundTint="#8AC3C5"
+        android:ems="10"
+        android:hint="Email adresi giriniz"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/sifreText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameText" />
+
+    <EditText
+        android:id="@+id/sifreText"
+        android:layout_width="222dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/teal_200"
+        android:backgroundTint="#8AC3C5"
+        android:ems="10"
+        android:hint="Şifrenizi giriniz"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailText" />
+
+    <Button
+        android:id="@+id/girisButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/white"
+        android:backgroundTint="#EBF6F6"
+        android:onClick="girisClick"
+        android:text="Giriş Yap"
+        android:textColor="#EDF6F5"
+        app:layout_constraintEnd_toStartOf="@+id/kayitButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kayitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="50dp"
+        android:background="#8AC3C5"
+        android:onClick="kayitClick"
+        android:text="Kayıt Ol"
+        android:textColor="#E4F4EF"
+        app:iconTint="#8AC3C5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#E91E63" />
+
+    <EditText
+        android:id="@+id/sifreGuncelleText"
+        android:layout_width="224dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/teal_200"
+        android:backgroundTint="#8AC3C5"
+        android:ems="10"
+        android:hint="Yeni şifrenizi giriniz"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sifreText"
+        app:layout_constraintVertical_bias="0.369" />
+
+    <Button
+        android:id="@+id/guncelleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="guncelleClick"
+        android:text="Güncelle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sifreGuncelleText"
+        app:layout_constraintVertical_bias="0.07" />
+</androidx.constraintlayout.widget.ConstraintLayout>

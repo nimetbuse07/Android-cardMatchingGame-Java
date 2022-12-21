@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TekLevel1Activity">
+
+    <TextView
+        android:id="@+id/skor"
+        android:layout_width="173dp"
+        android:layout_height="36dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="SKOR: 0"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toStartOf="@+id/sure"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.gridlayout.widget.GridLayout
+
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/v1"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/v2"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/v3"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/v4"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="3"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/v5"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="4"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/v6"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="5"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/v7"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/v8"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/v9"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/v10"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="3"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/v11"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="4"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/v12"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="5"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/v13"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/v14"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/v15"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="2"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/v16"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="3"
+            app:layout_row="2" />
+        <ImageView
+            android:id="@+id/v17"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="4"
+            app:layout_row="2" />
+        <ImageView
+            android:id="@+id/v18"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="5"
+            app:layout_row="2" />
+        <ImageView
+            android:id="@+id/v19"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="0"
+            app:layout_row="3" />
+        <ImageView
+            android:id="@+id/v20"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="1"
+            app:layout_row="3" />
+        <ImageView
+            android:id="@+id/v21"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="2"
+            app:layout_row="3" />
+        <ImageView
+            android:id="@+id/v22"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="3"
+            app:layout_row="3" />
+        <ImageView
+            android:id="@+id/v23"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="4"
+            app:layout_row="3" />
+        <ImageView
+            android:id="@+id/v24"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="5"
+            app:layout_row="3" />
+        <ImageView
+            android:id="@+id/v25"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="0"
+            app:layout_row="4" />
+        <ImageView
+            android:id="@+id/v26"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="1"
+            app:layout_row="4" />
+        <ImageView
+            android:id="@+id/v27"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="2"
+            app:layout_row="4" />
+        <ImageView
+            android:id="@+id/v28"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="3"
+            app:layout_row="4" />
+        <ImageView
+            android:id="@+id/v29"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="4"
+            app:layout_row="4" />
+        <ImageView
+            android:id="@+id/v30"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="5"
+            app:layout_row="4" />
+        <ImageView
+            android:id="@+id/v31"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="0"
+            app:layout_row="5" />
+        <ImageView
+            android:id="@+id/v32"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="1"
+            app:layout_row="5" />
+        <ImageView
+            android:id="@+id/v33"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="2"
+            app:layout_row="5" />
+        <ImageView
+            android:id="@+id/v34"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="3"
+            app:layout_row="5" />
+        <ImageView
+            android:id="@+id/v35"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="4"
+            app:layout_row="5" />
+        <ImageView
+            android:id="@+id/v36"
+            android:layout_width="66dp"
+            android:layout_height="73dp"
+            android:src="@drawable/arkayuzguncel"
+            app:layout_column="5"
+            app:layout_row="5" />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/sure"
+        android:layout_width="173dp"
+        android:layout_height="36dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:text="SÜRE: 45"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/basla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:onClick="baslaClicked"
+        android:text="BAŞLA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout" />
+
+    <Switch
+        android:id="@+id/switchTek3"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:showText="true"
+        android:text="SES"
+        android:textIsSelectable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

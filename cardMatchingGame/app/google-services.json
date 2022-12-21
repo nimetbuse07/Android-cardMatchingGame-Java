@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "833985437167",
+    "project_id": "cardmatchinggame-193ea",
+    "storage_bucket": "cardmatchinggame-193ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833985437167:android:53a0a2443e3374af42aa1a",
+        "android_client_info": {
+          "package_name": "com.alicandogru.cardmatchinggame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833985437167-cvt95b9isdabobqotpg8hjaumfqph3v2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtE82x85C7kVZ_wm2-PT0sK6Y1WeWoUhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833985437167-cvt95b9isdabobqotpg8hjaumfqph3v2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
